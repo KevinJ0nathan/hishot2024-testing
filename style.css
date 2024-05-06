@@ -134,7 +134,6 @@ body{
     position: relative;
     margin: 0px 20px 100px 20px;
     z-index: 10;
-    clip-path: polygon(94% 0, 100% 18%, 100% 100%, 0 100%, 0 0);
     background-image: url(assets/button\ frame.png);
     background-size: cover;
     transition: ease-out 0.3s;
