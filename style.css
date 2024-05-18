@@ -41,6 +41,9 @@
 }
 
 /* Start */
+html{
+  overflow-x: hidden;
+}
 
 body {
   background-color: var(--night) !important;
@@ -1342,6 +1345,7 @@ button.navbar-toggler:hover {
   margin-top: 200px;
   width: 84%;
   margin-left: 8%;
+  overflow: visible;
 }
 
 .emblem-container {
@@ -1371,7 +1375,7 @@ button.navbar-toggler:hover {
   background-repeat: no-repeat;
 }
 .shield-layer-1 {
-  background-image: url(assets/Shield\ Layer\ 1.svg);
+  background-image: url(assets/location/Shield\ Layer\ 1.svg);
   animation: rotate-clockwise 19s linear infinite;
   width: 236px; 
   height: 236px;
@@ -1379,7 +1383,7 @@ button.navbar-toggler:hover {
 }
 
 .shield-layer-2 {
-  background-image: url(assets/Shield\ Layer\ 2.svg);
+  background-image: url(assets/location/Shield\ Layer\ 2.svg);
   animation: rotate-anti-clockwise 16s linear infinite; 
   width: 215px;
   height: 215px;
@@ -1390,7 +1394,7 @@ button.navbar-toggler:hover {
 }
 
 .shield-layer-3 {
-  background-image: url(assets/Shield\ Layer\ 3.svg);
+  background-image: url(assets/location/Shield\ Layer\ 3.svg);
   animation: rotate-clockwise 19s linear infinite; 
   width: 215px;
   height: 215px;
@@ -1399,7 +1403,7 @@ button.navbar-toggler:hover {
 }
 
 .shield-layer-4 {
-  background-image: url(assets/Shield\ Layer\ 4.svg);
+  background-image: url(assets/location/Shield\ Layer\ 4.svg);
   animation: rotate-anti-clockwise 5s linear infinite; 
   width: 215px;
   height: 215px;
@@ -1408,7 +1412,7 @@ button.navbar-toggler:hover {
 }
 
 .shield-layer-5 {
-  background-image: url(assets/Shield\ Layer\ 5.svg);
+  background-image: url(assets/location/Shield\ Layer\ 5.svg);
   animation: rotate-clockwise 3s linear infinite; 
   width: 215px;
   height: 215px;
@@ -1417,7 +1421,7 @@ button.navbar-toggler:hover {
 }
 
 .shield-layer-6 {
-  background-image: url(assets/Shield\ Layer\ 6.svg);
+  background-image: url(assets/location/Shield\ Layer\ 6.svg);
   animation: rotate-anti-clockwise 3s linear infinite; 
   width: 127px;
   height: 127px;
@@ -1428,7 +1432,7 @@ button.navbar-toggler:hover {
 }
 
 .shield-layer-7 {
-  background-image: url(assets/Shield\ Layer\ 7.svg);
+  background-image: url(assets/location/Shield\ Layer\ 7.svg);
   width: 127px; 
   height: 127px;
   animation: rotate-clockwise 4s linear infinite; 
@@ -1437,7 +1441,7 @@ button.navbar-toggler:hover {
 }
 
 .shield-SVG {
-  background-image: url(assets/Shield\ Emblem.svg);
+  background-image: url(assets/location/Shield\ Emblem.svg);
   width: 236px;
   height: 236px;
   position: absolute;
@@ -1475,7 +1479,7 @@ button.navbar-toggler:hover {
 
 
 .padlock-SVG {
-  background-image: url(assets/Padlock\ Emblem.svg);
+  background-image: url(assets/location/Padlock\ Emblem.svg);
   width: 236px;
   height: 236px;
   position: absolute;
@@ -1490,48 +1494,48 @@ button.navbar-toggler:hover {
   height: 236px;
 }
 .debug-layer-1 {
-  background-image: url(assets/Debug\ Layer\ 1.svg);
+  background-image: url(assets/location/Debug\ Layer\ 1.svg);
   background-position: 6px 4px;
   animation: rotate-anti-clockwise 13s linear infinite; 
 }
 
 .debug-layer-2 {
-  background-image: url(assets/Debug\ Layer\ 2.svg);
+  background-image: url(assets/location/Debug\ Layer\ 2.svg);
   background-position: 16px 14px;
   animation: rotate-clockwise 5s linear infinite; 
 }
 
 .debug-layer-3 {
-  background-image: url(assets/Debug\ Layer\ 3.svg);
+  background-image: url(assets/location/Debug\ Layer\ 3.svg);
   background-position: 25px 25px;
   animation: rotate-anti-clockwise 4.5s linear infinite; 
 }
 
 .debug-layer-4 {
-  background-image: url(assets/Debug\ Layer\ 4.svg);
+  background-image: url(assets/location/Debug\ Layer\ 4.svg);
   background-position: 37px 37px;
 }
 
 .debug-layer-5 {
-  background-image: url(assets/Debug\ Layer\ 5.svg);
+  background-image: url(assets/location/Debug\ Layer\ 5.svg);
   background-position: 50px 49px;
   animation: rotate-clockwise 2s linear infinite; 
 }
 
 .debug-layer-6 {
-  background-image: url(assets/Debug\ Layer\ 6.svg);
+  background-image: url(assets/location/Debug\ Layer\ 6.svg);
   background-position: 58.6px 58.7px; 
   animation: rotate-anti-clockwise 1.6s linear infinite; 
 }
 
 .debug-layer-7 {
-  background-image: url(assets/Debug\ Layer\ 7.svg);
+  background-image: url(assets/location/Debug\ Layer\ 7.svg);
   background-position: 64px 64px;
   animation: rotate-clockwise 1.4s linear infinite; 
 }
 
 .debug-SVG {
-  background-image: url(assets/Debug\ Emblem.svg);
+  background-image: url(assets/location/Debug\ Emblem.svg);
   position: absolute;
   background-position: center;
 }
