@@ -2253,7 +2253,7 @@ b {
       --glow-large: 9px;
       --glow-xlarge: 12px;
     }
-
+  }
 
   @media only screen and (max-width: 630px) {
     .hero-container {
