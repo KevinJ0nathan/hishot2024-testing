@@ -1069,8 +1069,14 @@ button.navbar-toggler:hover {
 
   .time-info-container{
     align-self: center;
-
   }
+
+  
+  .countdown-container{
+    margin: 0;
+    align-self: center;
+  }
+  
 
   .br-techline,
   .tl-techline,
